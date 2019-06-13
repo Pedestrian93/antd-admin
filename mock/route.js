@@ -15,6 +15,18 @@ const database = [
     route: '/dashboard',
   },
   {
+    id: '100',
+    icon: 'dashboard',
+    name: 'ftwo',
+    zh: {
+      name: 'ftwo'
+    },
+    'pt-br': {
+      name: 'ftwo'
+    },
+    route: '/ftwo',
+  },
+  {
     id: '2',
     breadcrumbParentId: '1',
     name: 'Users',
