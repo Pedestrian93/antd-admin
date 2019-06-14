@@ -27,6 +27,32 @@ const database = [
     route: '/ftwo',
   },
   {
+    id: '101',
+    breadcrumbParentId: '1',
+    name: 'antd components',
+    zh: {
+      name: 'antd'
+    },
+    'pt-br': {
+      name: 'Graficos'
+    },
+    icon: 'code-o',
+  },
+  {
+    id: '51',
+    breadcrumbParentId: '101',
+    menuParentId: '101',
+    name: 'table',
+    zh: {
+      name: 'table'
+    },
+    'pt-br': {
+      name: 'table'
+    },
+    icon: 'line-chart',
+    route: '/antdComponents/table',
+  },
+  {
     id: '2',
     breadcrumbParentId: '1',
     name: 'Users',
