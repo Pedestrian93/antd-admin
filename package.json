@@ -4,6 +4,7 @@
   "private": true,
   "description": "An admin dashboard application demo built upon Ant Design and UmiJS",
   "dependencies": {
+    "@antv/g6": "1.2.8",
     "@lingui/react": "^2.7.0",
     "ant-design-pro": "^2.3.0",
     "antd": "^3.14.0",
