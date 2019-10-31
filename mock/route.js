@@ -53,6 +53,20 @@ const database = [
     route: '/antdComponents/table',
   },
   {
+    id: '52',
+    breadcrumbParentId: '101',
+    menuParentId: '101',
+    name: 'sdk',
+    zh: {
+      name: 'sdk'
+    },
+    'pt-br': {
+      name: 'sdk'
+    },
+    icon: 'line-chart',
+    route: '/antdComponents/sdk',
+  },
+  {
     id: '2',
     breadcrumbParentId: '1',
     name: 'Users',
